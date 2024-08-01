@@ -40,8 +40,8 @@ NONE： 该状态就是连接状态事件类型。前面四种是关于节点的
 3. waitingEvent弹出的事件执行watcher.process方法
 
 ### 服务端——watcher
-watchManager包含两个非常重要的数据结构：
-watchTable:path-watchers，表示一个目录下可能多个消费者监听，方便通知某个路径下的watchers
+watchManager包含两个非常重要的数据结构：</br>
+watchTable:path-watchers，表示一个目录下可能多个消费者监听，方便通知某个路径下的watchers </br>
 watch2Paths:watcher-paths，表示同一个消费者可能监听多个路径，方便删除某个watcher监听的所有path
 注意这里的watcher含义表示远程连接，
 
