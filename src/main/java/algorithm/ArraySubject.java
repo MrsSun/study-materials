@@ -1,5 +1,6 @@
 package algorithm;
 
+import javax.print.Doc;
 import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutorService;
@@ -53,10 +54,16 @@ public class ArraySubject {
 
 
     public static void main(String[] args) {
-        try{
-            thenApply();
-        }catch (Exception e){
-            e.printStackTrace();
-        }
+//        try{
+//            thenApply();
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+
+        Double d = 0.4d;
+        System.out.println(d);
+        System.out.println(Math.round(d));
+        System.out.println(Math.floor(d));
+
     }
 }

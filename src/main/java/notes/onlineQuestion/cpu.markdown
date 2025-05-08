@@ -45,6 +45,10 @@
 
 
 常用命令：
-
+1. 查看CPU核数：
+   cat /proc/cpuinfo | grep "cpu cores" | uniq
+2. 查看内存大小：
+   cat /proc/meminfo | grep MemTotal
+3. 
 
 
